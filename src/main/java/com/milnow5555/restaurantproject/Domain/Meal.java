@@ -3,9 +3,9 @@ package com.milnow5555.restaurantproject.Domain;
 
 public class Meal {
     private String name;
-    private String price;
+    private double price;
 
-    public Meal(String name, String price){
+    public Meal(String name, double price){
         this.name = name;
         this.price = price;
 
@@ -15,7 +15,7 @@ public class Meal {
         return name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 }

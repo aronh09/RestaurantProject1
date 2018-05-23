@@ -35,7 +35,7 @@ public class MealAdapter extends RecyclerView.Adapter<MealAdapter.ViewHolder> {
         Meal listitem = mealitems.get(position);
 
         holder.textViewHead.setText(listitem.getName());
-        holder.textViewDesc.setText(listitem.getPrice());
+        holder.textViewDesc.setText((int) listitem.getPrice());
     }
 
     @Override
